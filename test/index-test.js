@@ -1,8 +1,8 @@
 /*global describe, it */
 
-describe('deli', () => {
-  describe('takeANumber', () => {
-    var katzDeli;
+describe('deli', (katzDeli) => {
+  describe('takeANumber', (katzDeliLine) => {
+    var katzDeli; 
     var otherDeli;
 
     beforeEach(() => {
